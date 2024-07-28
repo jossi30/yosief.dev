@@ -20,4 +20,4 @@ export const aboutParagraph =
 
 export const contactEmail = 'yosief.hailay@gmail.com';
 
-export const documentTitle = 'Hello I am Yosief G. Hailay | Full Stack Developer | Software Engineer'
+export const documentTitle = 'Yosief G. Hailay'

@@ -11,6 +11,8 @@ import { ScrollContext } from '../context/ScrollContext';
 import ScrollToTop from '../components/ScrollToTop';
 
 // ----------------------------------------------------------------------
+// Use direct path for the public directory
+const CV = '/cv.pdf';
 
 export default function HomeHero() {
   const { isScroll, jumpToDown } = useContext(ScrollContext);
@@ -37,7 +39,7 @@ export default function HomeHero() {
           <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
         </motion.div>
         <h1 className="z-50 font-lato text-2xl font-bold sm:text-4xl md:font-semibold">
-          Hi, Im{' '}
+          Hi, I'm{' '}
           <span className="text-primary-700 dark:text-primary-300">
             <Typewriter
               style={{ color: 'inherit' }}
@@ -53,8 +55,14 @@ export default function HomeHero() {
           </span>
         </h1>
         <p className="text-center text-sm sm:text-base md:w-3/5">{aboutParagraph}</p>
-        {/* Social Icons */}
         <SocialLinks />
+      </div>
+      <div>
+        <a href={CV} download>
+          <button className="hover:animate-pulse px-6 py-3 rounded-lg shadow-lg dark:shadow-gray-800 shadow-gray-500 bg-primary-700 dark:bg-primary-300 text-white dark:text-black transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+            Resume
+          </button>
+        </a>
       </div>
 
       <div
@@ -75,7 +83,3 @@ export default function HomeHero() {
     </section>
   );
 }
-
-// ----------------------------------------------------------------------
-
-HomeHero.propTypes = {};
