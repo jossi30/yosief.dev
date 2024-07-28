@@ -28,8 +28,8 @@ const getSkillByLabel = (skills, techLabel) => skills.find(({ label }) => label 
 
 export const PROJECTS = [
   {
-    imgSrc: './src/assets/images/project.png', // Updated path
-    title: 'Flipkart Clone - E-Commerce Project',
+    imgSrc: '/images/nile.png',
+    title: 'Nile Marketing Agency',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
       getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
@@ -46,7 +46,7 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
   },
   {
-    imgSrc: './src/assets/images/developer-portfolio.png', // Updated path
+    imgSrc: '/images/developer-portfolio.png',
     title: 'Developer Portfolio',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
@@ -61,7 +61,7 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.OPEN_SOURCE],
   },
   {
-    imgSrc: './src/assets/images/kitchen-store.png', // Updated path
+    imgSrc: '/images/kitchen-store.png',
     title: 'Kitchen Store - E-Commerce',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
@@ -81,7 +81,7 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
   },
   {
-    imgSrc: './src/assets/images/netflix-clone.png', // Updated path
+    imgSrc: '/images/netflix-clone.png',
     title: 'Netflix Clone - TMDB API Project',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
