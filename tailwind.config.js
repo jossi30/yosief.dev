@@ -13,18 +13,21 @@ module.exports = {
       colors: {
         neutral: colors.slate,
         primary: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#b9e5fe',
-          300: '#7cd1fd',
-          400: '#36bbfa',
-          500: '#0ca3eb',
-          600: '#0082c9',
-          700: '#0168a3',
-          800: '#065786',
-          900: '#06283d',
+          50: '#e8f1f9',  // lightest shade
+          100: '#c5d9f0',
+          200: '#a1c0e7',
+          300: '#7ea7dd',
+          400: '#5b8ed4',
+          500: '#3975cb',  // new base color
+          600: '#305fa3',
+          700: '#274a7b',
+          800: '#1e3554',
+          900: '#14212c',  // darkest shade
         },
       },
+      
+      
+      
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
