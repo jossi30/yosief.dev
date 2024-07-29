@@ -13,7 +13,7 @@ export const SOCIAL_LINKS = [
   },
 ];
 
-export const HERO_TITLES = ['Yosief G. Hailay', ' A Full Stack Developer', ' A Software Engineer'];
+export const HERO_TITLES = ['Yosief G. Hailay', ' A Full Stack Developer', 'ዮሴፍ ገብረትንሳኤ', ' A Software Engineer'];
 
 export const aboutParagraph =
   'Highly motivated and enthusiastic Full Stack Engineer with experience in designing, developing and maintaining web applications using technologies such as Generative AI, Typescript, React, Next.js, Node.js, Python.';
